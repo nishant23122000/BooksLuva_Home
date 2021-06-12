@@ -1,0 +1,141 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* MITRA SECTION------------------ */
+.mitra_section{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    justify-content: space-between;
+    margin: 10px auto;
+    
+}
+img{
+        width: 40%;
+        height: 100%;
+ }
+ .mitra_content{
+     width: 100%;
+     padding:0 20px;
+ }
+.heading{
+    font-size: 40px;
+    margin: 20px 0;
+    padding: 0;
+}
+.fas{
+    margin: auto 5px;
+    color: #116466;
+}
+.card{
+    display: flex;
+}
+.content p:first-child{
+    color: #116466;
+        font-size: 25px;
+        font-weight: bolder;
+        
+        padding: 0;
+        margin: 0 10px;
+}
+.content p:nth-child(2){
+    padding: 0;
+    margin: 0 10px;
+}
+.free_mentoring{
+    background-color: #116466;
+    color: #D9B086;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+
+/* --------TEMPLATE------- */
+
+.template_section{
+    background-image: url("../Assets/Images/global-digital-earth-network-connection-technology-background_1017-23328.jpg");
+   
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner_section{
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    
+}
+.template_section h1{
+    font-size: 90px;
+    margin: 0;
+    color: white;
+}
+.template_section p{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    border: 2px solid white;
+}
+.feature_section h1{
+    margin-top: 100px;
+    text-align: center;
+}
+.features{
+    margin: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.features img{
+    width: 200px;
+    height: 210px;
+}
+.features img:hover{
+    width: 220px;
+    height: 180px;
+    transition: 0.5s all;
+}
+
+
+.book_section h1{
+    margin-top: 100px;
+    text-align: center;
+}
+.book_section .books{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.book_section .books .book img{
+    width: 200px;
+    height: 240px;
+}
+.book_section .books .book p{
+    margin: 5px auto;
+    text-align: center;
+}
+.book_section .books .book .button{
+    width: 100%;
+    text-align: center;
+}
+.book_section .books .book button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #116466;
+    color: white;
+}
